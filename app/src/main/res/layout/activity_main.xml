@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="30dp"
+    >
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Name"
+        android:id="@+id/doctor_name_ET"
+        android:visibility="visible"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Clinic Name"
+        android:id="@+id/clinic_name_ET"
+        android:visibility="visible"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registration Number"
+        android:id="@+id/reg_number_ET"
+        android:visibility="visible"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qualification"
+        android:id="@+id/qualification_ET"
+        android:visibility="visible"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:id="@+id/mobile_number_ET"
+        android:visibility="visible"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient Name"
+        android:id="@+id/patient_name_ET"
+        android:visibility="gone"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient Gender"
+        android:id="@+id/patient_gender_ET"
+        android:visibility="gone"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient Age"
+        android:id="@+id/patient_age_ET"
+        android:inputType="number"
+        android:visibility="gone"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicine Name"
+        android:id="@+id/medicine_name_ET"
+        android:visibility="gone"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicine Quantity"
+        android:id="@+id/medicine_quantity_ET"
+        android:visibility="gone"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextButton"
+        android:text="Next"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/generatePdfButton"
+        android:text="Generate"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        />
+
+
+</LinearLayout>
+</layout>
